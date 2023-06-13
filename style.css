@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: black;
+}
+h4{
+    display: inline-block;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+.title{
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Tilt Prism', cursive;
+    background: black;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(to right, #bce80f, #cda434);
+    margin: 5% auto 0;
+}
+.main{
+    border: 2px solid rgb(252, 252, 47);
+    padding: 20px ;
+    border-radius: 7px;
+    margin: 5% 20%;
+    background: black;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(to right, #ffd700, #cda434);
+}
+.input{
+    width: 14%;
+    background: black;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(to right, #ffd700, #cda434);
+    border-radius: 7px;
+    border: 1px solid rgb(200, 237, 14);
+    padding: 3px;
+    position: absolute;
+    right: 290px;
+}
+.button{
+    margin: 2% 40%;
+    border-radius: 5px;
+    font-size: 1.5rem;
+}
+.button:hover{
+    font-size: 1.55rem;
+    border: 2px solid rgb(220, 239, 12)
+}
+#list{
+    margin: 1% auto auto 15%;
+    font-size: 1.2rem; 
+}
+.paisa{
+    background: black;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(to right, #53ef0b, #9bf608);
+    font-size: 1.4rem;;
+}
+.solgan{
+    text-align: center;
+    background: black;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: 600;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(to right, #53ef0b, #9bf608);
+    font-family: 'Tangerine', cursive;
+} 
+footer{
+    text-align: center;
+    background: black;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: 600;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(to right, #53ef0b, #9bf608);
+    font-family: 'Tangerine', cursive;
+    font-size: 2rem;
+}
+a{
+    text-decoration: underline rgb(183, 237, 7);
+}
+
+
+
+/* for mobiles................................  */
+
+@media only screen and (max-width: 767px) {
+
+
+    .main{
+        padding: 20px ;
+    }
+    
+    
+    .input{
+        background: black;
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        width: 25vh;
+        -webkit-text-fill-color: transparent;
+        background-image: linear-gradient(to right, #ffd700, #cda434);
+        border-radius: 7px;
+        border: 1px solid rgb(200, 237, 14);
+        padding: 3px;
+        position:inherit;
+        
+    }
+    h4{
+        display: block;
+        font-family: 'Ubuntu', sans-serif;
+    
+    }
+    .button{
+        margin: 10% auto;
+        border-radius: 5px;
+        font-size: 1.5rem;
+    }
+
+}
+  
