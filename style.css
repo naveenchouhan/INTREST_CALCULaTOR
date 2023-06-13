@@ -106,15 +106,31 @@ a{
 
     .main{
         padding: 20px ;
+        margin: 8%;
+        text-align: center;
     }
-    
-    
-    .input{
+    #list{
+        margin: 1% auto;
+        font-size: 1rem; 
+    }
+    .paisa{
         background: black;
         background-clip: text;
         -webkit-background-clip: text;
         color: transparent;
-        width: 25vh;
+        -webkit-text-fill-color: transparent;
+        background-image: linear-gradient(to right, #53ef0b, #9bf608);
+        font-size: 1.1rem;;
+    }
+    
+    .input{
+        font-size: 1.2rem;
+        margin: auto auto 7%;
+        background: black;
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        width: 90%;
         -webkit-text-fill-color: transparent;
         background-image: linear-gradient(to right, #ffd700, #cda434);
         border-radius: 7px;
